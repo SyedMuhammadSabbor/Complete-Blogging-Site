@@ -1,0 +1,132 @@
+a{
+    text-decoration: none;
+    color: rgb(113, 110, 110);
+    
+
+}
+.blog{
+    display: flex;
+    gap: 1.25rem;
+   
+   
+}
+.fixing{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.blog-image {
+    min-width: 210px;
+    min-height: 145px;
+    max-height: 185px;
+    overflow: hidden; 
+        border-radius: 4px;
+
+  }
+  
+  
+  .blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.travel{
+    width: 3rem;
+    height: 1.5rem;
+    font-size: 0.6rem;
+    text-align: center;
+    background: rgba(242, 248, 247, 1);
+    border-radius: 4px;
+    border : none ;
+;
+
+}
+.titles{
+    font-size: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-weight: 900;
+    display: -webkit-box;
+
+}
+.users{
+    display: flex;
+    gap: 0.3rem;
+    color: rgba(153, 153, 153, 1);
+
+    /* align-items: center; */
+}
+.about-blog{
+    display: flex;
+    flex-flow: column;
+    row-gap: 0.5rem;
+    
+}
+.round-images{
+    width: 24px;
+    height: 24px;
+}
+.round-images img{
+    object-fit: cover;
+    border-radius: 100%;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.users span{
+    
+    font-size: 14px;
+}
+.adjusts {
+    display: flex;
+    align-items: center;
+    gap: 0.1rem;
+
+
+}
+.sets{
+    color: rgba(153, 153, 153, 1);
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.lines {
+    width: 1px;
+    height: 19px;
+    border-radius: 4px;
+    background: rgba(153, 153, 153, 1);
+}
+.info {
+    display: -webkit-box;
+    font-size: 17px;
+    color: rgba(153, 153, 153, 1);
+    font-weight: 500;
+    overflow: hidden;
+    width: 60%;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+@media (max-width: 1080px) {
+
+.users{
+    display: flex;
+    flex-flow: column;
+    
+}
+.sets{
+   
+    gap: 3px;
+}
+}
+@media (max-width: 810px) {
+ .info{
+    width: 100%;
+ }
+ .info{
+    -webkit-line-clamp: 1;
+ }
+}

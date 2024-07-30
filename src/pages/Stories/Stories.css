@@ -1,0 +1,14 @@
+.posting{
+    width: 100%;
+}
+.do{
+    display: flex;
+    justify-content: space-between;
+     position: relative;
+     margin: auto;
+}
+.po{
+    margin-top: 2rem;
+
+}
+
