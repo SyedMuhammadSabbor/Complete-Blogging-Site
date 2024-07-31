@@ -1,0 +1,194 @@
+header {
+    padding: 0.7rem 0;
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15);
+    color: rgba(119, 119, 119, 1);
+    z-index: 7;
+    top: 0;
+}
+
+header.simple {
+    background: transparent;
+    color: rgba(196, 196, 196, 1);
+}
+
+header.scrolled {
+    background: white;
+    color: rgba(119, 119, 119, 1);
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    /* gap: 0.3rem; */
+    list-style: none;
+    z-index: 3;
+}
+
+.nav li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.nav li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: blue;
+    color: blue;
+    transition: width 0.4s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav li a:hover::after {
+    width: 100%;
+}
+
+.nav li a:hover {
+    color: blue;
+}
+
+.menu {
+    display: none;
+}
+
+.sign {
+    width: 119px;
+    border-radius: 40px;
+    height: 40px;
+    background: blue;
+    border: none;
+    color: white;
+}
+
+.get {
+    display: flex;
+    width: 110px;
+    border-radius: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordering {
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.side {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.3rem;
+}
+
+.replace {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .inner {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .inner {
+        width: 95%;
+    }
+    .nav li {
+        margin: 0 8px;
+    }
+    
+    .side {
+        display: none;
+    }
+
+    .replace  {
+        display: block;
+    }
+
+    .both {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav {
+        display: none;
+    }
+
+    .open-menu {
+        display: block;
+        width: 250px;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        transition: ease-in 2s;
+        padding-top: 60px;
+    }
+
+    .close-menu {
+        width: 0;
+    }
+
+    .cross {
+        z-index: 99;
+        color: white;
+        background: black;
+    }
+
+    .nav li {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .nav li a {
+        background: #000;
+        color: white;
+    }
+
+    .logo img {
+        width: 11rem;
+    }
+
+    .menu {
+        display: block;
+        color: white;
+        z-index: 99;
+    }
+
+    .menu.scrolled {
+        color: black;
+    }
+}
