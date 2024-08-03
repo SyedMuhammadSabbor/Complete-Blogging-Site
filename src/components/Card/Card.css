@@ -1,0 +1,68 @@
+.Card {
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+.title{
+    font-size: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-weight: 600;
+    display: -webkit-box;
+
+}
+.user{
+    display: flex;
+    gap: 0.4rem;
+    color: rgba(153, 153, 153, 1);
+
+    align-items: center;
+}
+.round-image{
+    width: 35px;
+    height: 35px;
+}
+.round-image img{
+    object-fit: cover;
+    border-radius: 100%;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.user span{
+    
+    font-size: 14px;
+   
+
+}
+.adjust {
+    display: flex;
+    align-items: center;
+    
+    gap: 1rem;
+
+}
+.set{
+    color: rgba(153, 153, 153, 1);
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.line {
+    width: 2px;
+    height: 15px;
+    border-radius: 4px;
+    background: rgba(153, 153, 153, 1);
+}
+.info {
+    display: -webkit-box;
+    font-size: 17px;
+    color: rgba(153, 153, 153, 1);
+    font-weight: 500;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
