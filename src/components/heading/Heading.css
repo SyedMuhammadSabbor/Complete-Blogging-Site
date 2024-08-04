@@ -1,0 +1,29 @@
+.firstline{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+    margin: 2rem 0;
+    /* width: 340px; */
+}
+
+.firstline h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.firstline span{
+    color: blue;
+    font-size: 16px;
+}
+.underline {
+    width: 40px;
+    height: 3px;
+    background-color: rgba(0, 101, 253, 1);
+    margin: 5px;
+}
+@media (max-width: 1080px) {
+    .firstline h2{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+}
