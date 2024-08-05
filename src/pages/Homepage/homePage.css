@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+.first-port{
+    background-image: url(../.././assets/front.png);
+    height: 100vh ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second-port{
+    background: rgba(242, 244, 248, 1);
+        width: 100%;
+}
+.trending{
+    width: 80%;
+    margin: auto; 
+  
+    padding: 2.7rem 0;
+}
+.cards{
+    display: grid;
+    gap: 2rem;
+    row-gap: 2.4rem ;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 2.2rem;
+}
+.third-port{
+        width: 100%;
+}
+.double{
+    display: flex;
+    width: 80%;
+    margin: 2.4rem auto;
+    justify-content: space-between;
+     position: relative;
+     align-items: end;
+     z-index: 1;
+}
+.blogs{
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+    row-gap: 2rem;
+    margin-top: 2.4rem;
+}
+.store{
+    display: flex;
+    flex-flow: column;
+    row-gap: 2rem;
+}
+.top-stories{
+    width: 35%;
+    position: sticky;
+    bottom :1px;
+}
+.top-writers{
+    display: flex;
+    flex-flow: column;
+    row-gap: 2rem ;
+}
+.stats{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    row-gap: 2rem;
+}
+.stat{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 9rem;
+    height: 7rem;
+    background:rgba(242, 248, 247, 1);
+    border-radius: 10px;
+}
+.digit{
+    color: blue;
+    font-weight: 600;
+}
+.category{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* width: hug(98px); */
+    height:  35px;
+    border-radius: 8px;
+    border: 1px solid rgba(196, 196, 196, 1)
+}
+button:hover{
+    cursor: pointer;
+}
+.category:hover{
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+.categories{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 0.5rem;
+    row-gap: 1rem;
+}
+.ads{
+    background: rgba(102, 102, 102, 1);
+    height: 300px;
+    color: white;
+    font-size: 14px;
+    margin: 2rem 0;
+    padding: 10px 6px 10px 20px;
+}
+.text{
+    float: right;
+}
+.detail {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 2rem;
+    row-gap: 1rem;
+}
+.detail h5{
+font-size: 19px;
+font-weight: 600;
+line-height: 26.6px;
+text-align: left;
+}
+.detail button{
+    width: 104px;
+    height: 41px;
+    border-radius: 5px ;
+    border: none;
+    font: 16px;    
+}
+@media (max-width: 1080px) {
+    .trending{
+        width: 90%;
+    }
+    .double{
+        width: 90%; 
+        }
+    .cards{
+        display: grid;
+        gap: 1.2rem;
+        grid-template-columns: 50% 50%;
+        margin-top: 2rem;
+        row-gap: 2.1rem ;
+    }
+    .stats{
+        display: flex;
+        flex-flow: column;
+        row-gap: 2rem;
+        justify-content: center ;
+        text-align: center;
+        align-items: center;
+    }
+    .categories{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0.5rem;
+        row-gap: 1rem;
+    }
+}
+@media (max-width: 810px){
+    .cards{
+        display: grid;
+        gap: 1.2rem;
+        grid-template-columns: 100%;
+        margin-top: 2rem;
+        row-gap: 2.4rem ;
+    }
+    .top-stories{
+        width: 100%;
+        position: relative;
+    }
+    .categories{
+        grid-template-columns: 33% 33% 33% ;
+        gap: 0.5rem;
+        row-gap: 1rem;
+    }
+    .double{
+        width: 95%;
+        align-items: center;
+        flex-flow: column;
+    }
+    .blogs{
+        width: 100%;
+        align-items: center;
+    }
+    .quick-stats{
+        width: 95%;
+        margin: auto;
+    }
+    .stats{
+        flex-flow: row;
+        gap: 0.6rem;
+
+    }
+   
+}
