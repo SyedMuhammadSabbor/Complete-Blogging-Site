@@ -21,7 +21,6 @@ export default function HomePage() {
       <section className="second-port">
         <div className="trending">
           <Heading statement="Trending" option="" />
-
           <div className="cards">
             {cardsData.slice(0, 8).map((item, index) => (
               <Card
@@ -57,7 +56,6 @@ export default function HomePage() {
           <div className="top-stories">
             <Link to='./Stories'>
             <Heading statement="Top Stories" option="View all" />
-
             </Link>
             <div className="store">
               {cardsData.slice(0, 5).map((item, index) => (
@@ -76,11 +74,9 @@ export default function HomePage() {
             </div>
             <Link to='./stories'>
             <Heading statement="Top writers" option="View all" />
-
             </Link>
             <div className="top-writers">
               {cardsData.slice(0, 5).map((item, index) => (
-            
                  <Writer
                   key={index}
                   image={jenny}

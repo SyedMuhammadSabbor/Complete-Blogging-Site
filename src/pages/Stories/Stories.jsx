@@ -1,20 +1,19 @@
 import React from 'react'
 import './Stories.css'
-import jenny from "../../assets/jenny2.png";
+// import jenny from "../../assets/jenny2.png";
 import profile from "../../assets/jenny.png";
 import blogPic from "../../assets/Rectangle 2977.png";
 import Story from '../../components/TopStory/Story'
 import { Link } from 'react-router-dom'
 import Heading from '../../components/heading/Heading'
 import { cardsData } from '../Homepage/cardsData'
-import Writer from '../../components/writers/Writer';
+// import Writer from '../../components/writers/Writer';
 
 export default function Stories() {
   return (
     <>
         <div className="second-port ">
         <div className="trending po">
-        {/* <div className="do "> */}
      <div className='posting'>
      <Link to='./Stories'>
             <Heading statement="Top Stories"  />

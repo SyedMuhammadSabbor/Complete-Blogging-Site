@@ -14,6 +14,7 @@ import CreateProfile from "../pages/CreateProfile/CreateProfile";
 import ProtectedRoute from "./ProtectedRoute";
 
 export default function ProtectedRoutes() {
+  
   return (
     <Routes>
       <Route path="/" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />

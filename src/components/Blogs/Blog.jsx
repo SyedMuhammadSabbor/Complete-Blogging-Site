@@ -20,7 +20,6 @@ export default function Blog(props) {
         padding : '0 0.4rem'
       }
     : {};
-
   const design = props.showShadow
     ? {
         flexDirection: 'column',
@@ -30,7 +29,6 @@ export default function Blog(props) {
         fontSize : '20px'
       }
     : {};
-
   const designing = props.showShadow
     ? {
         display: 'flex',

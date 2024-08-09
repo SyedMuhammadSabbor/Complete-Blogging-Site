@@ -23,10 +23,10 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
-
           <Route path="/" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
           <Route path="/contactus" element={<ProtectedRoute><ContactUs /></ProtectedRoute>} />
           <Route path="/aboutus" element={<ProtectedRoute><AboutUs /></ProtectedRoute>} />
@@ -35,6 +35,7 @@ function App() {
           <Route path="/ourwrite" element={<ProtectedRoute><OurWrite /></ProtectedRoute>} />
           <Route path="/createprofile" element={<ProtectedRoute><CreateProfile /></ProtectedRoute>} />
           <Route path="/ourstory" element={<ProtectedRoute><OurStory /></ProtectedRoute>} />
+          
         </Routes>
         <Footer />
       </BrowserRouter>

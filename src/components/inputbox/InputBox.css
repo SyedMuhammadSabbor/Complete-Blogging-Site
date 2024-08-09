@@ -1,0 +1,29 @@
+
+.in {
+    font-family: Nunito;
+font-size: 18px;
+font-weight: 400;
+line-height: 19.1px;
+text-align: left;
+color: rgba(119, 119, 119, 1);
+  }
+
+
+  .on {
+    color: rgba(119, 119, 119, 1);
+
+    /* width: 80%; */
+    height: 40.67px;
+    padding: 10px;
+    border-radius: 45px ;
+    border: 1px solid rgba(119, 119, 119, 1)    
+  }
+input:hover{
+    box-shadow: 4px 2px 11px 0px rgba(0, 0, 0, 0.15);
+
+}
+.con{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

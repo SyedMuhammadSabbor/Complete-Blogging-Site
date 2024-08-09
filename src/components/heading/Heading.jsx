@@ -7,7 +7,6 @@ export default function Heading(props) {
             <div>
             <h2>{props.statement}</h2>
             <div className="underline"></div>
-
             </div>
               <span>{props.option}</span>
             </div>

@@ -7,7 +7,6 @@ let userInfo = null;
 if (token) {
   userInfo = jwtDecode(token);
 }
-
 const UserContext = createContext({
   user: userInfo,
   accessToken: token,

@@ -17,7 +17,6 @@ const pages = [
   { link: "/OurStory", page: "Our Story" },
   { link: "/contactus", page: "Contact Us" },
 ];
-
 export default function Header() {
   const location = useLocation();
   const navigate = useNavigate();

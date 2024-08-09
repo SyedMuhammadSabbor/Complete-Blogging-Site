@@ -14,7 +14,6 @@ const AllRoutes = () => {
     <>
         {user ? <ProtectedRoutes /> : <AuthRoutes />}
           <Routes>
-{/* <Route path="*" element={<NotFound />} /> */}
 </Routes>
     </>
     

@@ -30,9 +30,8 @@ export default function Footer() {
                 <form action="">
             <input className='first' type="email" placeholder="Type Email" />
             <input className='second' type="submit"  value="subscribe" />
-
+            
             </form>
-           
             <div className="follows">
                  <h4  >Follow on:</h4>
             <div className="social-media-logo">
