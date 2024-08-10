@@ -35,8 +35,6 @@ export default function Header() {
         setScrolled(true);
       }
     };
-   
-
     window.addEventListener("scroll", handleScroll);
     handleScroll(); 
     return () => {
