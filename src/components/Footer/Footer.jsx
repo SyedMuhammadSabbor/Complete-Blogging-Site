@@ -47,10 +47,7 @@ export default function Footer() {
         <div className="last-line">
             <span>Copyright © 2022 For How Square. All Rights Reserved.</span>
         </div>
-        </div>
-        
-      
-        
+        </div>   
       </div>
     </>
   )

@@ -22,7 +22,6 @@ export default function Header() {
   const navigate = useNavigate();
   const { scrolled, setScrolled } = useStoreContext();
   const [open, setOpen] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
