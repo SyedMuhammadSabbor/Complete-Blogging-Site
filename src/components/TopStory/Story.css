@@ -1,0 +1,33 @@
+
+.blog-images {
+    min-width: 100px;
+    width: 35.5%;
+    min-height: 110px;
+    max-height: 129px;
+}
+.story {
+    display: flex;
+    gap: 1.25rem;
+   /* width: 30px; */
+}
+.about-story{
+    display: flex;
+    flex-flow: column;
+    width: 65%;
+    row-gap: 0.5rem;
+}
+.titling{
+    font-size: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-weight: 400;
+    display: -webkit-box;
+
+}
+  .blog-images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+  }
