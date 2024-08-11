@@ -92,9 +92,7 @@ a:hover{
 .second:hover{
     cursor: pointer;
 }
-
-@media (max-width: 1150px) {
-    
+@media (max-width: 1150px) {  
     .outer-side {
         width: 95%;
         margin: auto;
