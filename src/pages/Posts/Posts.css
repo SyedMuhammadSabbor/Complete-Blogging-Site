@@ -1,0 +1,33 @@
+.complete{
+    width: 100%;
+}
+.port{
+    width: 80%;
+    /* margin: 5rem auto; */
+
+}
+.doub{
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+    justify-content: space-between;
+     position: relative;
+     z-index: 1;
+}
+.post{
+    width: 60%;
+    margin-top: 2rem;
+}
+@media (max-width:810px) {
+    .port{
+        width: 100%;    
+    }   
+    .doub{
+        width: 100%;
+        align-items: center;
+        flex-flow: column;
+    }
+    .t{
+        display: none;
+    }
+}
