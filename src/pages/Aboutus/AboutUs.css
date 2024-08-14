@@ -1,0 +1,63 @@
+
+ .left-side{
+    
+ }
+.about {
+    width: 100%;
+  }
+  
+  .about-us {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+    align-items: center;
+  }
+  .mission {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+    align-items: center;
+  }
+  .contain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin: 8rem auto;
+    width: 80%;
+  }
+  
+  .about-para h4 {
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 1080px) {
+    .contain {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 780px) {
+    .about-us {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .about-para{
+        text-align: left;
+    }
+    .mission {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+ 
+  }
+  
