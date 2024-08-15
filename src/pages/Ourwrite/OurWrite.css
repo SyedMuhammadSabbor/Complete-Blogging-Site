@@ -1,0 +1,32 @@
+.topic-title{
+display: grid;
+grid-template-columns: 49% 49%;
+gap: 1rem;
+/* justify-content: space-between; */
+}
+.sw{
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+}
+.editor-write {
+    display: flex;
+    row-gap: 0.7rem;
+    flex-direction: column;
+}
+ .tox-statusbar__branding {
+    display: none;
+}
+.btn-logins {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 24px;
+    border: none;
+    font-size: 18px;
+   
+    margin: 1rem auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }

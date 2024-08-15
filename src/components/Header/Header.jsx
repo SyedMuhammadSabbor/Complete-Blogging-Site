@@ -45,7 +45,6 @@ export default function Header() {
   const handleLoginClick = () => {
     navigate("/login");
   };
-
   return (
     <>
       <header className={`${scrolled ? "scrolled" : "simple"}`}>
