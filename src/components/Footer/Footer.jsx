@@ -29,8 +29,7 @@ export default function Footer() {
                 <h4 className='same'>Subscribe for free</h4>
                 <form action="">
             <input className='first' type="email" placeholder="Type Email" />
-            <input className='second' type="submit"  value="subscribe" />
-            
+            <input className='second' type="submit"  value="subscribe" />   
             </form>
             <div className="follows">
                  <h4  >Follow on:</h4>

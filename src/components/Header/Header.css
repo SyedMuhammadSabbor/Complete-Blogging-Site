@@ -8,7 +8,6 @@ header {
     z-index: 7;
     top: 0;
 }
-
 header.simple {
     background: transparent;
     color: rgba(196, 196, 196, 1);
@@ -24,7 +23,6 @@ header.scrolled {
     width: 80%;
     margin: auto;
 }
-
 .nav {
     display: flex;
     /* gap: 0.3rem; */
@@ -42,7 +40,6 @@ header.scrolled {
     text-decoration: none;
     padding: 5px 0;
 }
-
 .nav li a::after {
     content: '';
     display: block;
