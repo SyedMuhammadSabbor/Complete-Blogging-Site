@@ -1,0 +1,27 @@
+.back-g{
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height:100svh;
+position: fixed;
+top:0;
+    z-index: 99;
+}
+.full{
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background: white;
+}
+.mid{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+  
+    width: 70%;
+    margin: auto;
+    height:380px;
+    text-align: center;
+    align-items: center;
+}

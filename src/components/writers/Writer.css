@@ -1,0 +1,47 @@
+.Writers {
+    display: flex;
+    gap: 1rem;
+   align-items: center;
+}
+.round{
+    width: 80px;
+    height: 80px;
+}
+.round img{
+    object-fit: cover;
+    border-radius: 100%;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.writers-about{
+ display: flex;
+ flex-flow: column;
+ gap: 0.5rem;
+ font-size: 14px;
+}
+.writers-about h3{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.social-media-logos{
+    display: flex;
+
+    gap: 0.5rem ;
+   
+}
+.social-media-logos a{
+    color:  rgba(196, 196, 196, 1);
+    text-align: center;
+    width: 24px;
+    padding-top: 2px;
+    align-content: center;
+    height: 24px;
+    border-radius: 0.25rem;
+    border: 0.8px solid;
+}
+.social-media-logos a:hover{
+    background: blue;
+    border: none;
+    
+    }
