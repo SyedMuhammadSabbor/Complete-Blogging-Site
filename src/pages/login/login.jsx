@@ -18,7 +18,6 @@ const inputDetails = [
     enter: "password",
   },
 ];
-
 export default function Login() {
   const navigate = useNavigate();
   const initialDetails = {
